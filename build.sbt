@@ -1,11 +1,12 @@
 import scalariform.formatter.preferences._
 
+organization:="name.martijnhoekstra"
 
 name:="spray-cookies"
 
 version:="0.1-SNAPSHOT"
 
-scalaVersion:="2.10.3"
+scalaVersion:="2.11.7"
 
 scalacOptions ++= Seq(
   "-deprecation",
@@ -24,9 +25,9 @@ scalacOptions ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-  "io.spray" % "spray-client" % "1.3.1",
-  "io.spray" %%  "spray-json" % "1.2.6",
-  "com.typesafe.akka" %% "akka-actor" % "2.3.0",
+  "io.spray" %% "spray-client" % "1.3.1",
+  "io.spray" %%  "spray-json" % "1.3.2",
+  "com.typesafe.akka" %% "akka-actor" % "2.4.1",
   "org.scalacheck" %% "scalacheck" % "1.11.3" % "test"
 )
 
